@@ -1,11 +1,7 @@
-import type { NextConfig } from 'next';
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    serverActions: {
-      allowedOrigins: ['https://f657-5-35-39-40.ngrok-free.app'], // ← сюда вставь свой ngrok-адрес
-    },
-  },
+  /* config options here */
 };
 
 export default nextConfig;
